@@ -1,0 +1,93 @@
+html {
+    background-color: #e52521;
+}
+h1 {
+    color:black;
+    font-weight: 2000;
+    font-size: 30px;
+    text-align: center;
+    background-color: azure;
+    padding: 4px 6px 4px 6px;
+    border: 6px solid;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gameboard {
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px 20px;
+    background-color: azure;
+    gap: 10px;
+    align-items: anchor-center;
+    align-content: anchor-center;
+    justify-content: space-evenly;
+    border: 6px solid;
+    border-radius: 30px;
+    text-align: center;
+    padding: 40px 40px 40px 0px;
+}
+.questions {
+   background-color: azure;
+   text-align: center;
+   border: 6px solid;
+   border-radius: 20px;
+   padding: 5px;
+}
+
+.card img {
+    background-color: azure;
+    border: 3px solid;
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+}
+
+.answers {
+    background-color: azure;
+    border: 6px solid;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+.final_guess {
+    background-color: azure;
+    border: 6px solid;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px;
+    text-align: center;
+}
+p {
+    font-weight: bold;
+}
+#final_result {
+    background-color: azure;
+    border: 6px solid;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px;
+    text-align: center;
+
+}
+#resetButton {
+    /* Style the reset button */
+    background-color: #ffffff; /* Change the background color */
+    color: black; /* Change the text color */
+    padding: 10px 20px; /* Add some padding */
+    border-radius: 5px; /* Add a border radius */
+    cursor: pointer; /* Add a cursor pointer */
+    display: block; /* Make the button a block element */
+  margin: 0 auto;
+  }
+  
+  /* Style the reset button on hover */
+  #resetButton:hover {
+    /* Change the background color on hover */
+    background-color: #ff6600;
+  }
