@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Nintendo Guess Who</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div id="header"><h1>Nintendo Guess Who!</h1></div>
+    <br>
+    <div class="gameboard game">
+        <div class="card"><img src="characters/andross.png"></div>
+        <div class="card"><img src="characters/bowser.png"></div>
+        <div class="card"><img src="characters/donkey kong.png"></div>
+        <div class="card"><img src="characters/Fox.png"></div>
+        <div class="card"><img src="characters/Ganondorf.png"></div>
+        <div class="card"><img src="characters/Hades.png"></div>
+        <div class="card"><img src="characters/Isabelle.png"></div>
+        <div class="card"><img src="characters/King Dedede.png"></div>
+        <div class="card"><img src="characters/king k rool.png"></div>
+        <div class="card"><img src="characters/Kirby.png"></div>
+        <div class="card"><img src="characters/link.png"></div>
+        <div class="card"><img src="characters/luigi.png"></div>
+        <div class="card"><img src="characters/mario.png"></div>
+        <div class="card"><img src="characters/matt.png"></div>
+        <div class="card"><img src="characters/mii.png"></div>
+        <div class="card"><img src="characters/pit.png"></div>
+        <div class="card"><img src="characters/princess peach.png"></div>
+        <div class="card"><img src="characters/samus.png"></div>
+        <div class="card"><img src="characters/tom nook.png"></div>
+        <div class="card"><img src="characters/zelda.png"></div>
+    </div>
+    <br>
+    <div class="questions">
+        <select id="variousQuestions">
+            <option disabled selected>Questions!</option>
+            <option>Are they an animal?</option>
+            <option>Do they get power ups?</option>
+            <option>Does the internet love them?</option>
+            <option>Does the internet hate them?</option>
+            <option>Are they mythical?</option>
+            <option>Do they fight in space?</option>
+            <option>Are they a villain?</option>
+            <option>Are they known for having a specific weapon?</option>
+        </select>
+        <button id="Ask">Ask!</button>
+    </div>
+    <div class="answers">
+        <p>The answer is :</p>
+        <p id="output"></p>
+    </div>
+    <div class="final_guess">
+        <select id="guess">
+            <option disabled selected>Your final guess?</option>
+            <option>Andross</option>
+            <option>Bowser</option>
+            <option>Donkey Kong</option>
+            <option>Fox</option>
+            <option>Ganondorf</option>
+            <option>Hades</option>
+            <option>Isabelle</option>
+            <option>King Dedede</option>
+            <option>King K. Rool</option>
+            <option>Kirby</option>
+            <option>Link</option>
+            <option>Luigi</option>
+            <option>Mario</option>
+            <option>Matt</option>
+            <option>Mii</option>
+            <option>Pit</option>
+            <option>Princess Peach</option>
+            <option>Samus</option>
+            <option>Tom Nook</option>
+            <option>Zelda</option>
+        </select>
+        <button>Guess!</button>
+    </div>
+    <div class="result">
+        <p id="final_result">Result:</p>
+    </div>
+    </div>
+    <script src="guess who java.js"></script>
+</body>
+</html>
