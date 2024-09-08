@@ -4,7 +4,7 @@ const characters = [
     { name: "Bowser", animal: true, powerUps: false, internetLove: true, internetHate: false, mythical: false, fightInSpace: false, villan: true, specificWeapon: false},
     { name: "Donkey Kong", animal: true, powerUps: true, internetLove: false, internetHate: false, mythical: false, fightInSpace: true, villan: false, specificWeapon: false},
     { name: "Fox", animal: true, powerUps: true, internetLove: false, internetHate: false, mythical: false, fightInSpace: false, villan: false, specificWeapon: true},
-    { name: "Gandorf", animal: false, powerUps: false, internetLove: true, internetHate: false, mythical: false, fightInSpace: false, villan: true, specificWeapon: false},
+    { name: "Gandorff", animal: false, powerUps: false, internetLove: true, internetHate: false, mythical: false, fightInSpace: false, villan: true, specificWeapon: false},
     { name: "Hades", animal: false, powerUps: false, internetLove: false, internetHate: false, mythical: true, fightInSpace: true, villan: true, specificWeapon: false},
     { name: "Isabelle", animal: true, powerUps: false, internetLove: true, internetHate: false, mythical: false, fightInSpace: false, villan: false, specificWeapon: false},
     { name: "King Dedede", animal: true, powerUps: false, internetLove: false, internetHate: false, mythical: false, fightInSpace: false, villan: true, specificWeapon: false},
